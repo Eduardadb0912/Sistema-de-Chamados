@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7; 
+    margin: 0;
+}
+
+center {
+    padding: 20px;
+}
+
+h1 {
+    color: #004080;
+}
+
+form {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+}
+
+input[type="number"],
+input[type="text"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #004080; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #00254d; 
+}
+
+.Cadastrar{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.Limpar{
+    width: 12.5%;
+    border-radius: 15px;
+}
